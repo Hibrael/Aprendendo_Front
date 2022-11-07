@@ -1,0 +1,41 @@
+*{
+    margin: 5px;
+    padding: 0px;
+}
+
+header{
+    position: absolute;
+    left: 20%;
+    top: 30px;
+    font-size: 50px;
+}
+nav{
+    position: absolute;
+    width: 10px;
+    top: 130px;
+    color: red;
+}
+section{
+    position: absolute;
+    color: blue;
+    left: 700px;
+    top: 60px;
+    font-size: 20;
+}
+aside{
+    position: fixed;
+    top: 70%;
+    right: 80px;
+}
+article{
+    position: absolute;
+    color: blueviolet;
+    text-decoration: underline;
+    font-size: 30px;
+    top: 50%;
+}
+footer{
+    position: fixed;
+    width: auto;
+    top: 90%;
+}

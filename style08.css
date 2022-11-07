@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: -webkit-linear-gradient( #021b79, #0575e6);
+}
+html::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#1d0057, #d3533c);
+    clip-path: circle(22% at 30% 20%);
+}
+html::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#06088d, #c45735);
+    clip-path: circle(20% at 70% 90%);
+}
+div2{
+    position: absolute;
+    top: 18%;
+    left: 50%px;
+
+}
+
+input.value{
+    grid-column: span 4;
+    height: 140px;
+    width: 300px;
+    text-align: right;
+    outline: none;
+    padding: 15;
+    font-size: 50px;
+    background: transparent;
+    border-bottom: 1px solid rgba(255,255, 255, 0.5);
+    border-right: 1px solid rgba(255,255,255, 0.5);
+    
+    /*grid-column: span 4;
+    height: 140px;
+    width: 300px;
+    text-align: right;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 30px;
+    background: transparent;
+    color: #fff;
+    border-bottom: 1px solid rgba(255,255, 255, 0.5);
+    border-right: 1px solid rgba(255,255,255, 0.5);*/
+}
+
+div{
+    position: relative;
+    background: rgba(48, 47, 47, 0.5);
+    border-radius: 6px;
+    overflow: hidden;
+    z-index: 10;
+    backdrop-filter: blur(15px);
+    border-top: 1px solid rgb(63, 63, 65);
+    box-shadow: 7px 7px px rgba(0,0,0,0.2)
+}
+
+input.button{
+    grid-column: span 1;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    outline: 1px solid rgb(75, 72, 72);
+    padding: 5;
+    font-size: 50px;
+    background-color: transparent;
+    /*background: rgba(114, 86, 86, 0.5);*/
+    border-bottom: 1px solid rgba(255,255, 255, 0.5);
+    border-right: 1px solid rgba(255,255, 255, 0.5);
+    transition: 0.5s;
+}
+input.equal{
+    grid-column: span 2;
+    width: auto;
+    
+}
+
+input.button:hover{
+    transition: 0s;
+    background: rgba(255,255, 255, 0.5);
+   }
+ input.button:active{
+    background: rgb(196, 72, 72);
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-weight: 500;
+   }
+
+button:hover{
+    transition: 0s;
+    background: #e48735;
+   }
+button:active{
+    background: #e48735;
+    color: #192f00;
+    font-size: 24px;
+    font-weight: 500;
+   }
+form{
+    position: relative;
+    display: grid;
+}
+

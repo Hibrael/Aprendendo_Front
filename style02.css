@@ -1,0 +1,28 @@
+body{
+    background-image: url(https://th.bing.com/th/id/R.5b4abae0201665595bbc086a074a133f?rik=M4eNx5CdtHYXiQ&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 50px;
+    text-decoration: underline;
+    color: brown;
+}
+h2{
+    font-size: 50px;
+    text-decoration: underline;
+    color: green;
+}
+ul{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+li.a:hover{
+    font-size: 35px;
+    text-decoration: underline;
+}
+ol{
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+}

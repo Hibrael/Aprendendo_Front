@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 2;
+    padding: 5;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background:linear-gradient(rgb(27, 30, 155), rgb(46, 97, 190));
+
+}
+
+header{
+    font-size: 30px;
+    color:rgb(146, 45, 45);
+    text-decoration: underline;
+}
+
+section{
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: underline;
+
+}
+
+li{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+li:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: Underline;
+}
+
+aside{
+    position: absolute;
+    top: 600px;
+    left: 10px;
+    font-size: 25px;
+    border: 2px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 5px;
+    
+    
+}
+th.custo{
+    color: rgb(197, 18, 18); 
+    text-decoration: underline;
+    border: 1px; border-style: groove;
+}
+tr.custo:hover{
+    color: rgb(212, 39, 16); 
+    text-decoration: underline;
+    border: 1px; border-style: groove; 
+}
+td.custo:hover{
+    color: rgb(212, 39, 16); 
+    text-decoration: underline;
+}
+th.valor{
+    color: rgb(214, 228, 29); 
+    text-decoration: underline;
+}
+td.valor:hover{
+    color: rgb(214, 228, 29); 
+    text-decoration: underline;
+}
+div{
+    position: absolute;
+    margin: 10px;
+    padding-left: 60px;
+    padding-right: 0px;
+    width: 600px;
+    height: 700px;
+    top: 250px;
+    left: 750px;
+    font-size: 30px;
+    border: 5px solid black;
+}
+textarea{
+    font-family: 'Roboto', sans-serif;
+    grid-column: span 4;
+    height: 140px;
+    width: 500px;
+    text-align: left;
+    outline: none;
+    padding: 15;
+    font-size: 25px;
+    background: transparent;
+}
+input{
+    width: 200px;
+    height: 30px;
+}
+input.button{
+    background:rgba(131, 129, 129, 0.4);
+    font-style: oblique;
+    font-size: 20px;
+    width: 100px;
+    height: 50px
+}
+input.button:hover{
+    background-color: rgba(255, 255, 255, 0.705);
+    font-size: 22px;
+    text-decoration: underline;
+
+}
+iframe{
+    position: absolute;
+    right: 90px;
+    top: 15%;
+    width: 1100px;
+    height: 874px;
+    border: 5px solid black;
+}
+div1{
+    position: fixed;
+    top: 10%;
+    right: 745px; 
+    color: rgb(170, 43, 11);
+    text-decoration: underline;
+}
+footer{
+    position: fixed;
+    top: 95%;
+    font-size: 20px;
+    font-style: oblique;
+}

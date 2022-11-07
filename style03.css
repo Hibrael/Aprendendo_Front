@@ -1,0 +1,15 @@
+    *{
+        margin: 2px;
+        padding: 2px;
+    }
+    h2{
+        font-style: oblique;
+    }
+    th:hover{
+        color: red;
+        text-decoration: underline;
+    }
+    tr:hover{
+        color: blue;
+        text-decoration: underline;
+    }

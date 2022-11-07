@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 10px;
+}
+h2{
+    font-size: 50px;
+}
+label{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+input.button{
+    color: rgb(0, 0, 0);
+    width: 80px;
+    height: 35px;
+    border: 2px solid black;
+    font-size: 18px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+input.button:hover{
+    color: blue;
+    text-decoration: underline;
+    font-size: 20px;
+}
+input.value{
+    height: 20px;
+    width: 200px;
+    background-color: transparent;
+    font-size: 20px;
+}
+textarea{
+    background-color: transparent;
+    font-size: 20px;
+    grid-column: span 4;
+    width: 300px;
+    height: 50px;
+}
