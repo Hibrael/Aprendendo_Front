@@ -1,0 +1,8 @@
+<form>
+  <mat-form-field>
+    <input matInput placeholder="Digita sua cidade ou cep" arialabel="Cidade ou CEP" [formControl]="busca">
+    <mat-icon matSuffix>search</mat-icon>
+    <mat-hint> Para buscar por país, informe como o exemplo 'Lages, BR'</mat-hint>
+    <mat-error *ngIf="busca.invalid">Invalido</mat-error>
+  </mat-form-field>
+</form>

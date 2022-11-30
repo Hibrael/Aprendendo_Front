@@ -1,0 +1,38 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span>Aplicativo do tempo</span>
+    <span class="example-spacer"></span>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<div fxLayoutAlign="center">
+
+  <div class="mat-caption vertical-margin">
+    Sua cidade, sua previsão, aqui e agora!
+  </div>
+  <br>
+</div>
+
+<div fxLayoutAlign="center">
+  <div fxLayout="row">
+    <div fxFLex></div>
+    <mat-card fxFlex="500px">
+      <mat-card-header>
+        <mat-card-title>Previsões</mat-card-title>
+        <mat-card-subtitle>Previsão atual</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+
+        <div fxLayoutAlign="center">
+          <app-busca-cidade></app-busca-cidade>
+        </div>
+
+        <app-tempo-atual></app-tempo-atual>
+      </mat-card-content>
+    </mat-card>
+    <div fxFlex></div>
+  </div>
+  <div>
+    <app-poluicao></app-poluicao>
+  </div>
+</div>
